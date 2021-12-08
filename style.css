@@ -1,0 +1,78 @@
+body {
+}
+*{
+  margin:0;
+  padding:0;
+}
+:root{
+  --box-color: grey;
+}
+#div div{
+  display: flex;
+  justify-content: space-between;
+  margin:0 2vw;
+  margin:2vh 0;
+  border:0.7px solid pink;
+  padding: 0.7rem;
+  align-items: center;
+  border-radius: 15px;
+}
+#div div button{
+  border-radius: 15px;
+  border:0.6px solid grey;
+  padding:1vh 9vw;
+  font-size:1rem;
+  background: none;
+  color: dimgrey;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  outline: none;
+}
+#div div p{
+  font-size:1rem;
+  color: grey;
+}
+
+#div{
+  display: flex;
+  flex-direction: column;
+}
+
+.todo input{
+  display: block;
+  margin:5vh auto 1vh auto;
+  padding:5vw 8vw;
+  border-radius:15px;
+  border:0.5px solid grey;
+  transition-property: background;
+  transition-duration: 2s;
+  outline: none;
+}
+.todo input:hover{
+  background: lightblue;
+}
+
+.todo p{
+  color: var(--box-color);
+  margin:0.5rem;
+  margin-bottom: 0;
+  
+}
+.todo img{
+  position: absolute;
+  width:10%;
+  right:0;
+  top:0;
+  margin:0.5rem;
+}
+.todo button{
+  color: var(--box-color);
+  width:40%;
+  display: block;
+  margin: 0 auto;
+  padding:2.4vh 0;
+  border-radius:15px;
+  border:1px solid grey;
+  background:none;
+  font-size: 4.6vw;
+  outline:none;
+}
